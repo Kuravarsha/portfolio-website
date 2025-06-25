@@ -1,0 +1,21 @@
+:root {
+  --primary: #3a86ff;
+  --secondary: #8338ec;
+  --dark: #212529;
+  --light: #f8f9fa;
+  --accent: #ff006e;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+  scroll-behavior: smooth;
+}
+
+/* Continue with rest of your styles exactly as written */
+.gradient-bg {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+
